@@ -19,7 +19,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "cluster.verissimo.net.br"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
