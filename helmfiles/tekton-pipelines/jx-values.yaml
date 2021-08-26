@@ -34,7 +34,7 @@ jxRequirements:
   - key: staging
   - key: production
   ingress:
-    domain: change.me
+    domain: cluster.verissimo.net.br
     kind: ingress
     namespaceSubDomain: -tekton-pipelines.
     tls:

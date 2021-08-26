@@ -11,6 +11,8 @@ repositories:
   url: https://charts.helm.sh/stable
 - name: jxgh
   url: https://jenkins-x-charts.github.io/repo
+- name: kuberhealthy
+  url: https://comcast.github.io/kuberhealthy/helm-repos
 releases:
 - chart: bitnami/external-dns
   version: 5.0.0
@@ -80,5 +82,7 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/health-checks-jx/values.yaml.gotmpl
   - jx-values.yaml
+- chart: kuberhealthy/kuberhealthy
+  name: kuberhealthy
 templates: {}
 renderedvalues: {}
