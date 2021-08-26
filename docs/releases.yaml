@@ -196,10 +196,10 @@
   - apiVersion: v2
     appVersion: 0.0.78
     description: Jenkins X next gen cloud CI / CD platform for Kubernetes
-    firstDeployed: "2021-08-26T20:22:09Z"
+    firstDeployed: "2021-08-26T20:22:04Z"
     home: https://jenkins-x.io/
     icon: https://jenkins-x.github.io/jenkins-x-website/img/profile.png
-    lastDeployed: "2021-08-26T20:22:09Z"
+    lastDeployed: "2021-08-26T20:22:04Z"
     logsUrl: https://console.cloud.google.com/logs/viewer?authuser=1&project=jenkinsx-8888&minLogLevel=0&expandAll=false&customFacets=&limitCustomFacetWidth=true&interval=PT1H&resource=k8s_container%2Fcluster_name%2Fjenkinsx-8888-gke%2Fnamespace_name%2Fjx%2Fcontainer_name%2Fjx-kh-check&dateRangeUnbound=both
     maintainers:
     - email: jenkins-x@googlegroups.com
