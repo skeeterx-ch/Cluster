@@ -83,10 +83,22 @@ releases:
   - ../../versionStream/charts/jxgh/health-checks-jx/values.yaml.gotmpl
   - jx-values.yaml
 - chart: kuberhealthy/kuberhealthy
+  version: "64"
   name: kuberhealthy
+  values:
+  - ../../versionStream/charts/kuberhealthy/kuberhealthy/values.yaml.gotmpl
+  - jx-values.yaml
 - chart: jxgh/jx-kh-check
+  version: 0.0.78
   name: jx-kh-check
+  values:
+  - ../../versionStream/charts/jxgh/jx-kh-check/values.yaml.gotmpl
+  - jx-values.yaml
 - chart: jxgh/jx-kh-check
+  version: 0.0.78
   name: health-checks-install
+  values:
+  - ../../versionStream/charts/jxgh/jx-kh-check/values.yaml.gotmpl
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
